@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Feb 10 19:12:32 2022
+# Process ID: 14476
+# Current directory: D:/AGH/PSC/Piotrek_proj/TOP/synthesis
+# Command line: vivado.exe -mode batch -log vivado.log -journal transcript.log -source D:/AGH/PSC/Piotrek_proj/TOP/synthesis/run_vivado.tcl
+# Log file: D:/AGH/PSC/Piotrek_proj/TOP/synthesis/vivado.log
+# Journal file: D:/AGH/PSC/Piotrek_proj/TOP/synthesis\transcript.log
+#-----------------------------------------------------------
+source D:/AGH/PSC/Piotrek_proj/TOP/synthesis/run_vivado.tcl

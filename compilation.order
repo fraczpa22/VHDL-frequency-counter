@@ -1,0 +1,14 @@
+.\src\Preskaler.vhd
+.\src\kaskada_liczaca.vhd
+.\src\seven_seg_disp.vhd
+.\src\Top.bde
+.\src\generator.vhd
+.\src\Fub1.vhd
+.\src\preskaler2.vhd
+.\src\TB_kaskada_liczaca\kaskada_liczaca_TB.vhd
+.\src\TB_seven_seg_disp\seven_seg_disp_TB.vhd
+.\src\TB_Top\Top_TB.vhd
+.\synthesis\Top.vhd
+.\implement\Top.v
+.\implement\glbl.v
+.\src\TB_generator\generator_tb.vhd

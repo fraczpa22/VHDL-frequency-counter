@@ -1,0 +1,688 @@
+# Warning: You do not have valid license to open EDIF Netlist files. Contact Aldec for ordering information - sales@aldec.com.
+# Design Explorer: Shortcut to "D:\AGH\PSC\Piotrek_proj\TOP\TOP.aws" workspace added.
+acom -reorder -O3 -e 100 -work TOP -2002  $dsn/src/Preskaler.vhd $dsn/src/kaskada_liczaca.vhd $dsn/src/seven_seg_disp.vhd $dsn/src/Top.bde $dsn/src/generator.vhd $dsn/src/Fub1.vhd $dsn/src/preskaler2.vhd $dsn/src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd $dsn/src/TB_seven_seg_disp/seven_seg_disp_TB.vhd $dsn/src/TB_Top/Top_TB.vhd
+# DRC: Checking file 'D:/AGH/PSC/Piotrek_proj/TOP/src/Top.bde'.
+# DRC: Warning: Top.bde - 0 error(s), 3 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating D:\AGH\PSC\Piotrek_proj\TOP\compile\Top.vhd from D:\AGH\PSC\Piotrek_proj\TOP\src\Top.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/Preskaler.vhd
+# Compile Entity "Prescaler"
+# Compile Architecture "Prescaler" of Entity "Prescaler"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/kaskada_liczaca.vhd
+# Compile Entity "kaskada_liczaca"
+# Compile Architecture "kaskada_liczaca" of Entity "kaskada_liczaca"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/seven_seg_disp.vhd
+# Compile Entity "seven_seg_disp"
+# Compile Architecture "seven_seg_disp" of Entity "seven_seg_disp"
+# File: ./../compile/Top.vhd
+# Compile Entity "Top"
+# Compile Architecture "Top" of Entity "Top"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/generator.vhd
+# Compile Entity "generator"
+# Compile Architecture "generator" of Entity "generator"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/Fub1.vhd
+# Compile Entity "Fub1"
+# Compile Architecture "Fub1" of Entity "Fub1"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/preskaler2.vhd
+# Compile Entity "preskaler2"
+# Compile Architecture "preskaler2" of Entity "preskaler2"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd
+# Compile Entity "kaskada_liczaca_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "kaskada_liczaca_TB"
+# Compile Configuration "TESTBENCH_FOR_kaskada_liczaca"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_seven_seg_disp/seven_seg_disp_TB.vhd
+# Compile Entity "seven_seg_disp_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "seven_seg_disp_TB"
+# Compile Configuration "TESTBENCH_FOR_seven_seg_disp"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_Top/Top_TB.vhd
+# Compile Entity "Top_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "Top_TB"
+# Compile Configuration "TESTBENCH_FOR_Top"
+# Top-level unit(s) detected:
+# Entity => generator
+# Configuration => TESTBENCH_FOR_seven_seg_disp
+# Configuration => TESTBENCH_FOR_Top
+# Configuration => TESTBENCH_FOR_kaskada_liczaca
+# Entity => preskaler2
+# Entity => Fub1
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -reorder -O3 -e 100 -work TOP_post_synthesis -2002  $dsn/synthesis/Top.vhd
+# Error: VLM_0021: The working library "TOP_post_synthesis" not found in the installation.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+alog -O2 -sve -msg 5 -sv2k12 -work TOP_timing $dsn/implement/Top.v $dsn/implement/glbl.v
+# Error: ALOG: Cannot find library at `TOP_timing'.
+acom -reorder -O3 -e 100 -work TOP -2002  $dsn/src/TB_generator/generator_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_generator/generator_tb.vhd
+# Compile Entity "generator_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "generator_tb"
+# Compile Configuration "TESTBENCH_FOR_generator"
+# Top-level unit(s) detected:
+# Configuration => TESTBENCH_FOR_generator
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# Warning: Vivado finished with 2 warning(s).
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+# Warning: Vivado finished with 4 warning(s).
+# Library Manager: Library "TOP_timing" contents cleared.
+acom -O3 -e 100 -work TOP -2002  $dsn/src/Preskaler.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/Preskaler.vhd
+# Compile Entity "Prescaler"
+# Compile Architecture "Prescaler" of Entity "Prescaler"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work TOP -2002  $dsn/src/Top.bde
+# DRC: Checking file 'D:/AGH/PSC/Piotrek_proj/TOP/src/Top.bde'.
+# DRC: Top.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating D:\AGH\PSC\Piotrek_proj\TOP\compile\Top.vhd from D:\AGH\PSC\Piotrek_proj\TOP\src\Top.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/Top.vhd
+# Compile Entity "Top"
+# Compile Architecture "Top" of Entity "Top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# BDE: Warning: Source file: "D:/AGH/PSC/Piotrek_proj/TOP/src/Preskaler.vhd" does not implement architecture "Fub2". Attaching to an existing architecture "prescaler".
+# BDE: Instance "U5" of fub "Fub2 (Fub2)" has been attached to unit "Prescaler (prescaler)" from library "TOP".
+acom -O3 -e 100 -work TOP -2002  $dsn/src/preskaler2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/preskaler2.vhd
+# Compile Entity "preskaler2"
+# Compile Architecture "preskaler2" of Entity "preskaler2"
+# Error: COMP96_0078: preskaler2.vhd : (62, 1): Unknown identifier "CEO".
+# Error: COMP96_0133: preskaler2.vhd : (62, 1): Cannot find object declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work TOP -2002  $dsn/src/Preskaler.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/Preskaler.vhd
+# Compile Entity "Prescaler"
+# Compile Architecture "Prescaler" of Entity "Prescaler"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work TOP -2002  $dsn/src/preskaler2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/preskaler2.vhd
+# Compile Entity "preskaler2"
+# Compile Architecture "preskaler2" of Entity "preskaler2"
+# Error: COMP96_0078: preskaler2.vhd : (62, 1): Unknown identifier "CEO".
+# Error: COMP96_0133: preskaler2.vhd : (62, 1): Cannot find object declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work TOP -2002  $dsn/src/preskaler2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/preskaler2.vhd
+# Compile Entity "preskaler2"
+# Compile Architecture "preskaler2" of Entity "preskaler2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# BDE: Warning: Source file: "D:/AGH/PSC/Piotrek_proj/TOP/src/preskaler2.vhd" does not implement architecture "Fub3". Attaching to an existing architecture "preskaler2".
+# BDE: Instance "U6" of fub "Fub3 (Fub3)" has been attached to unit "preskaler2 (preskaler2)" from library "TOP".
+acom -O3 -e 100 -work TOP -2002  $dsn/src/Preskaler.vhd $dsn/src/kaskada_liczaca.vhd $dsn/src/seven_seg_disp.vhd $dsn/src/Top.bde $dsn/src/generator.vhd $dsn/src/Fub1.vhd $dsn/src/preskaler2.vhd $dsn/src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd $dsn/src/TB_seven_seg_disp/seven_seg_disp_TB.vhd $dsn/src/TB_Top/Top_TB.vhd
+# DRC: Checking file 'D:/AGH/PSC/Piotrek_proj/TOP/src/Top.bde'.
+# DRC: Top.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating D:\AGH\PSC\Piotrek_proj\TOP\compile\Top.vhd from D:\AGH\PSC\Piotrek_proj\TOP\src\Top.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/Preskaler.vhd
+# Compile Entity "Prescaler"
+# Compile Architecture "Prescaler" of Entity "Prescaler"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/kaskada_liczaca.vhd
+# Compile Entity "kaskada_liczaca"
+# Compile Architecture "kaskada_liczaca" of Entity "kaskada_liczaca"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/seven_seg_disp.vhd
+# Compile Entity "seven_seg_disp"
+# Compile Architecture "seven_seg_disp" of Entity "seven_seg_disp"
+# File: ./../compile/Top.vhd
+# Compile Entity "Top"
+# Compile Architecture "Top" of Entity "Top"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/generator.vhd
+# Compile Entity "generator"
+# Compile Architecture "generator" of Entity "generator"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/Fub1.vhd
+# Compile Entity "Fub1"
+# Compile Architecture "Fub1" of Entity "Fub1"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/preskaler2.vhd
+# Compile Entity "preskaler2"
+# Compile Architecture "preskaler2" of Entity "preskaler2"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd
+# Compile Entity "kaskada_liczaca_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "kaskada_liczaca_TB"
+# Compile Configuration "TESTBENCH_FOR_kaskada_liczaca"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_seven_seg_disp/seven_seg_disp_TB.vhd
+# Compile Entity "seven_seg_disp_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "seven_seg_disp_TB"
+# Compile Configuration "TESTBENCH_FOR_seven_seg_disp"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_Top/Top_TB.vhd
+# Compile Entity "Top_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "Top_TB"
+# Compile Configuration "TESTBENCH_FOR_Top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work TOP_post_synthesis -2002  $dsn/synthesis/Top.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/synthesis/Top.vhd
+# Compile Entity "Prescaler"
+# Compile Architecture "STRUCTURE" of Entity "Prescaler"
+# Compile Entity "kaskada_liczaca"
+# Compile Architecture "STRUCTURE" of Entity "kaskada_liczaca"
+# Compile Entity "seven_seg_disp"
+# Compile Architecture "STRUCTURE" of Entity "seven_seg_disp"
+# Compile Entity "Top"
+# Compile Architecture "STRUCTURE" of Entity "Top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+alog -O2 -sve -msg 5 -sv2k12 -work TOP_timing $dsn/implement/Top.v $dsn/implement/glbl.v
+# Pass 1. Scanning modules hierarchy.
+# Warning: VCP2515 ../implement/Top.v : (92, 35): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (106, 35): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (132, 29): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (140, 88): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (406, 16): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (424, 50): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (431, 50): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (503, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (506, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (533, 23): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (1944, 19): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (1968, 28): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Unit top modules: Top glbl.
+# $root top modules: Top glbl.
+# Compile success 0 Errors 12 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+acom -O3 -e 100 -work TOP -2002  $dsn/src/TB_generator/generator_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_generator/generator_tb.vhd
+# Compile Entity "generator_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "generator_tb"
+# Compile Configuration "TESTBENCH_FOR_generator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Warning: Vivado finished with 2 warning(s).
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+# Warning: Vivado finished with 4 warning(s).
+# Library Manager: Library "TOP_timing" contents cleared.
+acom -O3 -e 100 -work TOP -2002  $dsn/src/Preskaler.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/Preskaler.vhd
+# Compile Entity "Prescaler"
+# Compile Architecture "Prescaler" of Entity "Prescaler"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# Warning: Vivado finished with 2 warning(s).
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+# Warning: Vivado finished with 4 warning(s).
+# Library Manager: Library "TOP_timing" contents cleared.
+SetActiveLib -work
+comp -include "$dsn\src\kaskada_liczaca.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/kaskada_liczaca.vhd
+# Compile Entity "kaskada_liczaca"
+# Compile Architecture "kaskada_liczaca" of Entity "kaskada_liczaca"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\TB_calc_logic\kaskada_liczaca_TB.vhd" 
+# Error: D:\AGH\PSC\Piotrek_proj\TOP\src\TB_calc_logic\kaskada_liczaca_TB.vhd: no such file
+asim +access +r TESTBENCH_FOR_kaskada_liczaca 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6174 kB (elbread=1280 elab2=4756 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location D:\AGH\PSC\Piotrek_proj\TOP\src\wave.asdb
+#  18:42, czwartek, 10 lutego 2022
+#  Simulation has been initialized
+wave
+wave -noreg CLK
+wave -noreg CLR
+wave -noreg CE
+wave -noreg bit_wej
+wave -noreg bity_wyj
+wave -noreg bit_spr
+
+run 12000.00 ns
+# 6 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/AGH/PSC/Piotrek_proj/TOP/src/wave.asdb'.
+# KERNEL: stopped at time: 12 us
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\tutorvhdl_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_tutorvhdl 
+acom -O3 -e 100 -work TOP -2002  $dsn/src/kaskada_liczaca.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/kaskada_liczaca.vhd
+# Compile Entity "kaskada_liczaca"
+# Compile Architecture "kaskada_liczaca" of Entity "kaskada_liczaca"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+SetActiveLib -work
+comp -include "$dsn\src\kaskada_liczaca.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/kaskada_liczaca.vhd
+# Compile Entity "kaskada_liczaca"
+# Compile Architecture "kaskada_liczaca" of Entity "kaskada_liczaca"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TB_calc_logic\kaskada_liczaca_TB.vhd" 
+# Error: D:\AGH\PSC\Piotrek_proj\TOP\src\TB_calc_logic\kaskada_liczaca_TB.vhd: no such file
+asim +access +r TESTBENCH_FOR_kaskada_liczaca 
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'top.kaskada_liczaca' instantiated in architecture 'TB_ARCHITECTURE:kaskada_liczaca_TB' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+# Error: DO_001 in file D:\AGH\PSC\Piotrek_proj\TOP\src\TB_kaskada_liczaca\tutorvhdl_TB_runtest.do line 4
+# Error: Cannot run D:\AGH\PSC\Piotrek_proj\TOP\src\TB_kaskada_liczaca\tutorvhdl_TB_runtest.do
+acom -O3 -e 100 -work TOP -2002  $dsn/src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd
+# Compile Entity "kaskada_liczaca_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "kaskada_liczaca_TB"
+# Error: ELAB1_0028: TB_kaskada_liczaca/kaskada_liczaca_TB.vhd : (38, 0): Entity port length is 16. bity_wyj length is 12.
+# Compile Configuration "TESTBENCH_FOR_kaskada_liczaca"
+# Error: ELAB1_0028: ../src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd : (38, 0): Entity port length is 16. bity_wyj length is 12.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work TOP -2002  $dsn/src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd
+# Compile Entity "kaskada_liczaca_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "kaskada_liczaca_TB"
+# Compile Configuration "TESTBENCH_FOR_kaskada_liczaca"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+SetActiveLib -work
+comp -include "$dsn\src\kaskada_liczaca.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/kaskada_liczaca.vhd
+# Compile Entity "kaskada_liczaca"
+# Compile Architecture "kaskada_liczaca" of Entity "kaskada_liczaca"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+comp -include "$dsn\src\TB_calc_logic\kaskada_liczaca_TB.vhd" 
+# Error: D:\AGH\PSC\Piotrek_proj\TOP\src\TB_calc_logic\kaskada_liczaca_TB.vhd: no such file
+asim +access +r TESTBENCH_FOR_kaskada_liczaca 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6174 kB (elbread=1280 elab2=4756 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location D:\AGH\PSC\Piotrek_proj\TOP\src\wave.asdb
+#  18:55, czwartek, 10 lutego 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/AGH/PSC/Piotrek_proj/TOP/src/wave.asdb'.
+wave
+wave -noreg CLK
+wave -noreg CLR
+wave -noreg CE
+wave -noreg bit_wej
+wave -noreg bity_wyj
+wave -noreg bit_spr
+
+run 12000.00 ns
+# KERNEL: Warning: KERNEL_0291 Signal '/kaskada_liczaca_TB/CLK' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/kaskada_liczaca_TB/CLR' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/kaskada_liczaca_TB/CE' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/kaskada_liczaca_TB/bit_wej' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/kaskada_liczaca_TB/bity_wyj' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/kaskada_liczaca_TB/bit_spr' has already been traced.
+# 0 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/AGH/PSC/Piotrek_proj/TOP/src/wave.asdb'.
+# KERNEL: stopped at time: 12 us
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\tutorvhdl_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_tutorvhdl 
+# Error: Vivado has been aborted.
+acom -O3 -e 100 -work TOP -2002  $dsn/src/seven_seg_disp.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/seven_seg_disp.vhd
+# Compile Entity "seven_seg_disp"
+# Compile Architecture "seven_seg_disp" of Entity "seven_seg_disp"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work TOP -2002  $dsn/src/seven_seg_disp.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/seven_seg_disp.vhd
+# Compile Entity "seven_seg_disp"
+# Compile Architecture "seven_seg_disp" of Entity "seven_seg_disp"
+# Error: COMP96_0367: seven_seg_disp.vhd : (139, 14): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (140, 23): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (141, 23): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (142, 23): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (143, 23): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (144, 23): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (145, 23): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (146, 23): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (147, 23): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (148, 23): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (149, 14): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (150, 23): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (151, 23): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (152, 23): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (153, 23): Improper array length (4). Expected length is 14.
+# Error: COMP96_0367: seven_seg_disp.vhd : (154, 23): Improper array length (4). Expected length is 14.
+# Compile failure 16 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work TOP -2002  $dsn/src/seven_seg_disp.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/seven_seg_disp.vhd
+# Compile Entity "seven_seg_disp"
+# Compile Architecture "seven_seg_disp" of Entity "seven_seg_disp"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# BDE: Warning: Source file: "D:/AGH/PSC/Piotrek_proj/TOP/src/kaskada_liczaca.vhd" does not implement architecture "Fub5". Attaching to an existing architecture "kaskada_liczaca".
+# BDE: Instance "U8" of fub "Fub5 (Fub5)" has been attached to unit "kaskada_liczaca (kaskada_liczaca)" from library "TOP".
+# BDE: Warning: Source file: "D:/AGH/PSC/Piotrek_proj/TOP/src/seven_seg_disp.vhd" does not implement architecture "Fub6". Attaching to an existing architecture "seven_seg_disp".
+# BDE: Instance "U9" of fub "Fub6 (Fub6)" has been attached to unit "seven_seg_disp (seven_seg_disp)" from library "TOP".
+acom -O3 -e 100 -work TOP -2002  $dsn/src/Preskaler.vhd $dsn/src/kaskada_liczaca.vhd $dsn/src/seven_seg_disp.vhd $dsn/src/Top.bde $dsn/src/generator.vhd $dsn/src/Fub1.vhd $dsn/src/preskaler2.vhd $dsn/src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd $dsn/src/TB_seven_seg_disp/seven_seg_disp_TB.vhd $dsn/src/TB_Top/Top_TB.vhd
+# DRC: Checking file 'D:/AGH/PSC/Piotrek_proj/TOP/src/Top.bde'.
+# DRC: Top.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating D:\AGH\PSC\Piotrek_proj\TOP\compile\Top.vhd from D:\AGH\PSC\Piotrek_proj\TOP\src\Top.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/Preskaler.vhd
+# Compile Entity "Prescaler"
+# Compile Architecture "Prescaler" of Entity "Prescaler"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/kaskada_liczaca.vhd
+# Compile Entity "kaskada_liczaca"
+# Compile Architecture "kaskada_liczaca" of Entity "kaskada_liczaca"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/seven_seg_disp.vhd
+# Compile Entity "seven_seg_disp"
+# Compile Architecture "seven_seg_disp" of Entity "seven_seg_disp"
+# File: ./../compile/Top.vhd
+# Compile Entity "Top"
+# Compile Architecture "Top" of Entity "Top"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/generator.vhd
+# Compile Entity "generator"
+# Compile Architecture "generator" of Entity "generator"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/Fub1.vhd
+# Compile Entity "Fub1"
+# Compile Architecture "Fub1" of Entity "Fub1"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/preskaler2.vhd
+# Compile Entity "preskaler2"
+# Compile Architecture "preskaler2" of Entity "preskaler2"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd
+# Compile Entity "kaskada_liczaca_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "kaskada_liczaca_TB"
+# Compile Configuration "TESTBENCH_FOR_kaskada_liczaca"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_seven_seg_disp/seven_seg_disp_TB.vhd
+# Compile Entity "seven_seg_disp_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "seven_seg_disp_TB"
+# Error: ELAB1_0028: TB_seven_seg_disp/seven_seg_disp_TB.vhd : (39, 0): Entity port length is 16. bity_wej length is 12.
+# Compile Configuration "TESTBENCH_FOR_seven_seg_disp"
+# Error: ELAB1_0028: ../src/TB_seven_seg_disp/seven_seg_disp_TB.vhd : (39, 0): Entity port length is 16. bity_wej length is 12.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_Top/Top_TB.vhd
+# Compile Entity "Top_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "Top_TB"
+# Compile Configuration "TESTBENCH_FOR_Top"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work TOP_post_synthesis -2002  $dsn/synthesis/Top.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/synthesis/Top.vhd
+# Compile Entity "Prescaler"
+# Compile Architecture "STRUCTURE" of Entity "Prescaler"
+# Compile Entity "kaskada_liczaca"
+# Compile Architecture "STRUCTURE" of Entity "kaskada_liczaca"
+# Compile Entity "preskaler2"
+# Compile Architecture "STRUCTURE" of Entity "preskaler2"
+# Compile Entity "seven_seg_disp"
+# Compile Architecture "STRUCTURE" of Entity "seven_seg_disp"
+# Compile Entity "Top"
+# Compile Architecture "STRUCTURE" of Entity "Top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+alog -O2 -sve -msg 5 -sv2k12 -work TOP_timing $dsn/implement/Top.v $dsn/implement/glbl.v
+# Pass 1. Scanning modules hierarchy.
+# Warning: VCP2515 ../implement/Top.v : (95, 35): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (167, 29): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (175, 100): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (448, 50): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (544, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (547, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (590, 23): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (756, 37): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (895, 33): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (2596, 19): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (2639, 28): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Unit top modules: Top glbl.
+# $root top modules: Top glbl.
+# Compile success 0 Errors 11 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+acom -O3 -e 100 -work TOP -2002  $dsn/src/TB_generator/generator_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_generator/generator_tb.vhd
+# Compile Entity "generator_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "generator_tb"
+# Compile Configuration "TESTBENCH_FOR_generator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# Warning: Vivado finished with 6 warning(s).
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+# Warning: Vivado finished with 4 warning(s).
+# Library Manager: Library "TOP_timing" contents cleared.
+acom -O3 -e 100 -work TOP -2002  $dsn/src/Preskaler.vhd $dsn/src/kaskada_liczaca.vhd $dsn/src/seven_seg_disp.vhd $dsn/src/Top.bde $dsn/src/generator.vhd $dsn/src/Fub1.vhd $dsn/src/preskaler2.vhd $dsn/src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd $dsn/src/TB_seven_seg_disp/seven_seg_disp_TB.vhd $dsn/src/TB_Top/Top_TB.vhd
+# DRC: Checking file 'D:/AGH/PSC/Piotrek_proj/TOP/src/Top.bde'.
+# DRC: Top.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating D:\AGH\PSC\Piotrek_proj\TOP\compile\Top.vhd from D:\AGH\PSC\Piotrek_proj\TOP\src\Top.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/Preskaler.vhd
+# Compile Entity "Prescaler"
+# Compile Architecture "Prescaler" of Entity "Prescaler"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/kaskada_liczaca.vhd
+# Compile Entity "kaskada_liczaca"
+# Compile Architecture "kaskada_liczaca" of Entity "kaskada_liczaca"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/seven_seg_disp.vhd
+# Compile Entity "seven_seg_disp"
+# Compile Architecture "seven_seg_disp" of Entity "seven_seg_disp"
+# File: ./../compile/Top.vhd
+# Compile Entity "Top"
+# Compile Architecture "Top" of Entity "Top"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/generator.vhd
+# Compile Entity "generator"
+# Compile Architecture "generator" of Entity "generator"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/Fub1.vhd
+# Compile Entity "Fub1"
+# Compile Architecture "Fub1" of Entity "Fub1"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/preskaler2.vhd
+# Compile Entity "preskaler2"
+# Compile Architecture "preskaler2" of Entity "preskaler2"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd
+# Compile Entity "kaskada_liczaca_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "kaskada_liczaca_TB"
+# Compile Configuration "TESTBENCH_FOR_kaskada_liczaca"
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_seven_seg_disp/seven_seg_disp_TB.vhd
+# Compile Entity "seven_seg_disp_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "seven_seg_disp_TB"
+# Error: ELAB1_0028: TB_seven_seg_disp/seven_seg_disp_TB.vhd : (39, 0): Entity port length is 16. bity_wej length is 12.
+# Compile Configuration "TESTBENCH_FOR_seven_seg_disp"
+# Error: ELAB1_0028: ../src/TB_seven_seg_disp/seven_seg_disp_TB.vhd : (39, 0): Entity port length is 16. bity_wej length is 12.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_Top/Top_TB.vhd
+# Compile Entity "Top_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "Top_TB"
+# Compile Configuration "TESTBENCH_FOR_Top"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work TOP_post_synthesis -2002  $dsn/synthesis/Top.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/synthesis/Top.vhd
+# Compile Entity "Prescaler"
+# Compile Architecture "STRUCTURE" of Entity "Prescaler"
+# Compile Entity "kaskada_liczaca"
+# Compile Architecture "STRUCTURE" of Entity "kaskada_liczaca"
+# Compile Entity "seven_seg_disp"
+# Compile Architecture "STRUCTURE" of Entity "seven_seg_disp"
+# Compile Entity "Top"
+# Compile Architecture "STRUCTURE" of Entity "Top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+alog -O2 -sve -msg 5 -sv2k12 -work TOP_timing $dsn/implement/Top.v $dsn/implement/glbl.v
+# Pass 1. Scanning modules hierarchy.
+# Warning: VCP2515 ../implement/Top.v : (100, 35): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (110, 35): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (133, 35): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (139, 35): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (208, 29): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (216, 100): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (490, 54): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (523, 54): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (577, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (580, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (607, 23): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (1242, 19): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Unit top modules: Top glbl.
+# $root top modules: Top glbl.
+# Compile success 0 Errors 12 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+acom -O3 -e 100 -work TOP -2002  $dsn/src/TB_generator/generator_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/TB_generator/generator_tb.vhd
+# Compile Entity "generator_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "generator_tb"
+# Compile Configuration "TESTBENCH_FOR_generator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Warning: Vivado finished with 6 warning(s).
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+# Warning: Vivado finished with 6 warning(s).
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+acom -O3 -e 100 -work TOP -2002  $dsn/src/seven_seg_disp.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/seven_seg_disp.vhd
+# Compile Entity "seven_seg_disp"
+# Compile Architecture "seven_seg_disp" of Entity "seven_seg_disp"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work TOP -2002  $dsn/src/Top.bde
+# DRC: Checking file 'D:/AGH/PSC/Piotrek_proj/TOP/src/Top.bde'.
+# DRC: Top.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating D:\AGH\PSC\Piotrek_proj\TOP\compile\Top.vhd from D:\AGH\PSC\Piotrek_proj\TOP\src\Top.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/Top.vhd
+# Compile Entity "Top"
+# Compile Architecture "Top" of Entity "Top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Warning: Vivado finished with 4 warning(s).
+# Library Manager: Library "TOP_timing" contents cleared.
+SetActiveLib -work
+comp -include "$dsn\src\kaskada_liczaca.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/AGH/PSC/Piotrek_proj/TOP/src/kaskada_liczaca.vhd
+# Compile Entity "kaskada_liczaca"
+# Compile Architecture "kaskada_liczaca" of Entity "kaskada_liczaca"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+comp -include "$dsn\src\TB_calc_logic\kaskada_liczaca_TB.vhd" 
+# Error: D:\AGH\PSC\Piotrek_proj\TOP\src\TB_calc_logic\kaskada_liczaca_TB.vhd: no such file
+asim +access +r TESTBENCH_FOR_kaskada_liczaca 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6174 kB (elbread=1280 elab2=4756 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location D:\AGH\PSC\Piotrek_proj\TOP\src\wave.asdb
+#  19:17, czwartek, 10 lutego 2022
+#  Simulation has been initialized
+wave
+wave -noreg CLK
+wave -noreg CLR
+wave -noreg CE
+wave -noreg bit_wej
+wave -noreg bity_wyj
+wave -noreg bit_spr
+
+run 12000.00 ns
+# 6 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/AGH/PSC/Piotrek_proj/TOP/src/wave.asdb'.
+# KERNEL: stopped at time: 12 us
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\tutorvhdl_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_tutorvhdl 
+# 1 signal(s) traced.
+run 30us
+# KERNEL: stopped at time: 42 us
+# BDE: Warning: Source file: "D:/AGH/PSC/Piotrek_proj/TOP/src/preskaler2.vhd" does not implement architecture "Fub7". Attaching to an existing architecture "preskaler2".
+# BDE: Instance "U10" of fub "Fub7 (Fub7)" has been attached to unit "preskaler2 (preskaler2)" from library "TOP".
+acom -O3 -e 100 -work TOP -2002  $dsn/src/Top.bde
+# DRC: Checking file 'D:/AGH/PSC/Piotrek_proj/TOP/src/Top.bde'.
+# DRC: Top.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating D:\AGH\PSC\Piotrek_proj\TOP\compile\Top.vhd from D:\AGH\PSC\Piotrek_proj\TOP\src\Top.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/Top.vhd
+# Compile Entity "Top"
+# Compile Architecture "Top" of Entity "Top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work TOP -2002  $dsn/src/Top.bde
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/Top.vhd
+# Compile Entity "Top"
+# Compile Architecture "Top" of Entity "Top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Warning: Vivado finished with 6 warning(s).
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+# Library Manager: Library "TOP_post_synthesis" contents cleared.
+# Warning: Vivado finished with 4 warning(s).
+# Library Manager: Library "TOP_timing" contents cleared.
+# Design Status: The design status report for 'TOP' has been generated successfully to 'D:\AGH\PSC\Piotrek_proj\TOP\src\DESIGN_STATUS\2022_02_10_19_45\'.
+# Archive: Design 'TOP' has been successfully archived to D:\AGH\PSC\Piotrek_proj.

@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+--
+-- Title      : List of design files displayed in Active-HDL Design Browser
+-- Active-HDL : 11.1.262.7351
+-- Workspace  : TOP
+-- Design     : TOP
+-- Author     : frani
+-- Company    : AGH
+-- Date       : 2022-02-10 19:45:01
+--
+-------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+File                    | Comp. | File Status | Design Folder      | File Path
+                        | Order |             |                    |
+-----------------------------------------------------------------------------------------------------------------------------------------
+Preskaler.vhd           |     1 | Compiled    |                    | D:\AGH\PSC\Piotrek_proj\TOP\src\Preskaler.vhd
+kaskada_liczaca.vhd     |     2 | Compiled    |                    | D:\AGH\PSC\Piotrek_proj\TOP\src\kaskada_liczaca.vhd
+seven_seg_disp.vhd      |     3 | Compiled    |                    | D:\AGH\PSC\Piotrek_proj\TOP\src\seven_seg_disp.vhd
+Top.bde                 |     4 | Compiled    |                    | D:\AGH\PSC\Piotrek_proj\TOP\src\Top.bde
+TutorVHDL.xdc           |       | Modified    |                    | D:\AGH\PSC\Piotrek_proj\TOP\src\TutorVHDL.xdc
+generator.vhd           |     5 | Compiled    |                    | D:\AGH\PSC\Piotrek_proj\TOP\src\generator.vhd
+Fub1.vhd                |     6 | Compiled    |                    | D:\AGH\PSC\Piotrek_proj\TOP\src\Fub1.vhd
+preskaler2.vhd          |     7 | Compiled    |                    | D:\AGH\PSC\Piotrek_proj\TOP\src\preskaler2.vhd
+kaskada_liczaca_TB.vhd  |     8 | Compiled    | TB_kaskada_liczaca | D:\AGH\PSC\Piotrek_proj\TOP\src\TB_kaskada_liczaca\kaskada_liczaca_TB.vhd
+tutorvhdl_TB_runtest.do |       | Modified    | TB_kaskada_liczaca | D:\AGH\PSC\Piotrek_proj\TOP\src\TB_kaskada_liczaca\tutorvhdl_TB_runtest.do
+seven_seg_disp_TB.vhd   |     9 | Error       | TB_seven_seg_disp  | D:\AGH\PSC\Piotrek_proj\TOP\src\TB_seven_seg_disp\seven_seg_disp_TB.vhd
+tutorvhdl_TB_runtest.do |       | Modified    | TB_seven_seg_disp  | D:\AGH\PSC\Piotrek_proj\TOP\src\TB_seven_seg_disp\tutorvhdl_TB_runtest.do
+Top_TB.vhd              |    10 | Compiled    | TB_Top             | D:\AGH\PSC\Piotrek_proj\TOP\src\TB_Top\Top_TB.vhd
+tutorvhdl_TB_runtest.do |       | Modified    | TB_Top             | D:\AGH\PSC\Piotrek_proj\TOP\src\TB_Top\tutorvhdl_TB_runtest.do
+Top.edn                 |       | Modified    | post-synthesis     | D:\AGH\PSC\Piotrek_proj\TOP\synthesis\Top.edn
+Top.vhd                 |    11 | Modified    | post-synthesis     | D:\AGH\PSC\Piotrek_proj\TOP\synthesis\Top.vhd
+Top.v                   |    12 | Modified    | timing             | D:\AGH\PSC\Piotrek_proj\TOP\implement\Top.v
+Top.sdf                 |       | Modified    | timing             | D:\AGH\PSC\Piotrek_proj\TOP\implement\Top.sdf
+glbl.v                  |    13 | Modified    | timing             | D:\AGH\PSC\Piotrek_proj\TOP\implement\glbl.v
+tutorvhdl_TB_runtest.do |       | Modified    | TB_generator       | D:\AGH\PSC\Piotrek_proj\TOP\src\TB_generator\tutorvhdl_TB_runtest.do
+generator_tb.vhd        |    14 | Compiled    | TB_generator       | D:\AGH\PSC\Piotrek_proj\TOP\src\TB_generator\generator_tb.vhd
+-----------------------------------------------------------------------------------------------------------------------------------------
+

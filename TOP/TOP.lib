@@ -1,0 +1,186 @@
+timestamp=1644517921746
+
+[~A]
+ModifyID=73
+Version=74
+
+[~MFT]
+0=8|0TOP.mgf|65067|39374
+1=1|1TOP.mgf|101841|63681
+2=0|2TOP.mgf|38341|31748
+3=2|3TOP.mgf|29975|24260
+
+[fub1]
+A/fub1=A/Fub1 21|../src/Fub1.vhd|32|1*83637
+I=0*12211
+I/fub1=I/Fub1 0*57883
+M=11|0|ve4|1644513424469|../src/Fub1.vhd|0*12029*0xff1a58a29133b2452894ce4055de60e211fce29f|0*12138*0x23b75c12e3e89f2ef000564498faa8c2
+M/fub1=M/Fub1 21|0|ve4|1644516665766|../src/Fub1.vhd|0*12244*0x7b632787907203887bb533976fb9357f60081c69|0*12371*0x20116f55b147878295aeff36dce7fc50
+R=../src/Fub1.vhd|27
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|30f67b453fd86d402eb17e64712c560922b16d69098f984707b91b4520138844
+Version/fub1=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|30f67b453fd86d402eb17e64712c56096e9a9b5e7596d6f625cbd889350f8936
+
+[generator]
+A/generator=21|../src/generator.vhd|41|1*82841
+BinI32/generator=3*25238
+I=0*10931
+I/generator=0*57589
+M=11|0|ve4|1644513424447|../src/generator.vhd|0*10527*0x5bd0b0a6d5a0fb2d77cc03c987f0a5c3209c9854|0*10848*0x23b75c12e3e89f2ef000564498faa8c2
+M/generator=21|0|ve4|1644516665756|../src/generator.vhd|0*11215*0x20a8b7850b27565be2662e07c5dc75ab371b0e40|0*11525*0x20116f55b147878295aeff36dce7fc50
+R=../src/generator.vhd|29
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|868a022443c89e9f5ff3df3152251b4d1393fddf47876bc361e7a33e2c7578ef09ed227601fcbcea3245074e24815e0f
+Version/generator=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|868a022443c89e9f5ff3df3152251b4d1393fddf47876bc361e7a33e2c7578efb993963a522f01f9b9ea5c4058453f7c
+
+[generator_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TB_generator/generator_tb.vhd|10|1*90245
+BinI32/tb_architecture=3*27306
+I=0*23055
+I/tb_architecture=I/TB_ARCHITECTURE 0*59222
+M=11|0|ve4|1644513434077|../src/TB_generator/generator_tb.vhd|0*22726*0x8483e10f2d80a1d12a6570ad24fff16d25bf3b36|0*22953*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|ve4|1644516667004|../src/TB_generator/generator_tb.vhd|0*23341*0x9b4bfb7b1f531139e622f9cc3fdc752cdf8292f5|0*24134*0x20116f55b147878295aeff36dce7fc50
+R=../src/TB_generator/generator_tb.vhd|7
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|0a192d416c4bd86a6dbde4c96c4ac571f53f4f8b9d25b01d71c26bcd67cffd4acfe6f39b24e0483288612292c27e77b2
+Version/tb_architecture=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea6b8e1a2bafc09c3d283f05277f9ef0e3
+
+[kaskada_liczaca]
+A/kaskada_liczaca=21|../src/kaskada_liczaca.vhd|45|1*97055
+BinI32/kaskada_liczaca=3*29512
+I=0*38056
+I/kaskada_liczaca=0*61584
+M=11|0|ve4|1644515644074|../src/kaskada_liczaca.vhd|0*37601*0xff1d25859ac63729a3ea3e9c956821dd4f896bfe|0*37961*0x23b75c12e3e89f2ef000564498faa8c2
+M/kaskada_liczaca=21|0|ve4|1644517039737|../src/kaskada_liczaca.vhd|0*38346*0xe5716c71e2c03f3df1f4ddaf321e51afafaffcae|0*39022*0x20116f55b147878295aeff36dce7fc50
+NSymbols/kaskada_liczaca=40|0|2*31748
+R=../src/kaskada_liczaca.vhd|30
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|60a0d7f4e199fdd6117f5c0ec7ed328260b215e5cb7b27a0c03f6673d5a8da2e2bea628dfa58a7b7de05fcc64341a4f0
+Version/kaskada_liczaca=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|60a0d7f4e199fdd6117f5c0ec7ed328260b215e5cb7b27a0c03f6673d5a8da2e61d57cf7735b88b190e19b08f78a6d9a
+
+[kaskada_liczaca_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd|10|1*85161
+BinI32/tb_architecture=3*26149
+I=0*14739
+I/tb_architecture=I/TB_ARCHITECTURE 0*58217
+M=11|0|ve4|1644513424508|../src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd|0*14362*0x904cc448eb29e6c9895941206bfa67bdded64edd|0*14619*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|ve4|1644516665784|../src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd|0*39442*0x3d6c129e5dfd290a46aa934aa61fba7307d24628|0*40388*0x20116f55b147878295aeff36dce7fc50
+R=../src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd|7
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|60a0d7f4e199fdd6117f5c0ec7ed3282f247e62a65575dc0b3703e4941e9382bb3af0cc39089fdad7de767b7eb5403d9
+Version/tb_architecture=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea3c317b60185a42e08d0a1e748c3e6522
+
+[prescaler]
+A/prescaler=A/Prescaler 21|../src/Preskaler.vhd|31|1*75412
+BinI32/prescaler=3*22469
+I=0*566
+I/prescaler=I/Prescaler 0*55130
+M=11|0|ve4|1644513424346|../src/Preskaler.vhd|0*191*0x630b6df7f305fe3ab057e6e8817c7df1b441b79c|0*483*0x23b75c12e3e89f2ef000564498faa8c2
+M/prescaler=M/Prescaler 21|0|ve4|1644516665685|../src/Preskaler.vhd|0*54560*0x6840fa9544c900838d6ff6ed179f8059ff331ddd|0*55034*0x20116f55b147878295aeff36dce7fc50
+NSymbols/prescaler=NSymbols/Prescaler 40|0|2*34236
+R=../src/Preskaler.vhd|20
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|cae12c06217c698b50665c41a2a64cabb47390a3fca90f02da94c6585948d1090f724e117055c15ea0b41f8e24981773
+Version/prescaler=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|cae12c06217c698b50665c41a2a64cabb47390a3fca90f02da94c6585948d1098ff31b9a9655cb3ecb278bbd92102cdd
+
+[preskaler2]
+A/preskaler2=21|../src/preskaler2.vhd|41|1*83946
+BinI32/preskaler2=3*25516
+I=0*29974
+I/preskaler2=0*57921
+M=11|0|ve4|1644513921532|../src/preskaler2.vhd|0*29593*0x13ab7f4fa4f54870c75c4bacb7737e294decc252|0*29889*0x23b75c12e3e89f2ef000564498faa8c2
+M/preskaler2=21|0|ve4|1644516665772|../src/preskaler2.vhd|0*30259*0xaf01d7868af2ea5fb0abdfe5494d690f2bcc8722|0*30737*0x20116f55b147878295aeff36dce7fc50
+NSymbols/preskaler2=40|0|2*36269
+R=../src/preskaler2.vhd|30
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|b14971fb6f6740acc2f0c4ca42fac608c9e52950badb72957f2f9e5c7292751cfc168484cd2bfca17c2a7be6f3978c21
+Version/preskaler2=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|b14971fb6f6740acc2f0c4ca42fac608c9e52950badb72957f2f9e5c7292751c54504f88cea6ab7e7939a7bbfb347108
+
+[seven_seg_disp]
+A/seven_seg_disp=21|../src/seven_seg_disp.vhd|43|1*92229
+BinI32/seven_seg_disp=3*27839
+I=0*42114
+I/seven_seg_disp=0*59725
+M=11|0|ve4|1644515889292|../src/seven_seg_disp.vhd|0*41610*0x7542e8236031a7af4861c8b1c5cf6a8d9293e5aa|0*42021*0x23b75c12e3e89f2ef000564498faa8c2
+M/seven_seg_disp=21|0|ve4|1644516793698|../src/seven_seg_disp.vhd|0*45333*0xc40a332814e9f60d3c232d0a107cfa16a455f5e6|0*48539*0x20116f55b147878295aeff36dce7fc50
+NSymbols/seven_seg_disp=40|0|2*38341
+R=../src/seven_seg_disp.vhd|30
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|5ebf430eb8a98d96f4906fe299e5052ec4dba30668c031d78f274c5fa2b48b84d3fc4bdae9ab1a2dd565424d700b8e80
+Version/seven_seg_disp=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|5ebf430eb8a98d96f4906fe299e5052ec4dba30668c031d78f274c5fa2b48b84e21f3467018efcb88152033473370239
+
+[seven_seg_disp_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TB_seven_seg_disp/seven_seg_disp_TB.vhd|10|1*38450
+BinI32/tb_architecture=3*11832
+I=0*17667
+I/tb_architecture=I/TB_ARCHITECTURE 0*35002
+M=11|0|ve4|1644513424535|../src/TB_seven_seg_disp/seven_seg_disp_TB.vhd|0*17298*0xafe0ff9dbda497b98bbf5bc2fa532b32c961731d|0*17550*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|ve4|1644513970555|../src/TB_seven_seg_disp/seven_seg_disp_TB.vhd|0*17958*0x8b24f9d02f2c26cc07d9d3fc8494dc24d5c77533|0*18898*0x20116f55b147878295aeff36dce7fc50
+R=../src/TB_seven_seg_disp/seven_seg_disp_TB.vhd|7
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|5ebf430eb8a98d96f4906fe299e5052e24296e884d5e65d89b68b27994934e03a0d7839b95797dfee9dde6cdd9c1e985
+Version/tb_architecture=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea370beaf0c3d7cceb936d922b241cec70
+
+[testbench_for_generator]
+Configures=generator_tb.TB_ARCHITECTURE
+E=1*91772
+I=0*59559
+M=2|0|ve4|1644516667007|../src/TB_generator/generator_tb.vhd|0*24592*0xe4e0959633eefa3730e051fc4562bbc657cfba6d|0*24896*0x20116f55b147878295aeff36dce7fc50
+R=../src/TB_generator/generator_tb.vhd|75
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e55687e0a86480905d77aa0739211b97e126527262ddaa47cb266f3a3c4d9b973a79ef45a2063085f4961af2135ccc3268
+
+[testbench_for_kaskada_liczaca]
+Configures=kaskada_liczaca_TB.TB_ARCHITECTURE
+E=1*86977
+I=0*58563
+M=2|0|ve4|1644516665787|../src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd|0*16462*0x23b0720ac4cbb72f1f24616e55543cdfe7441cbd|0*16826*0x20116f55b147878295aeff36dce7fc50
+R=../src/TB_kaskada_liczaca/kaskada_liczaca_TB.vhd|79
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e516fe7486d8b9d1729e56c553f23f73201c77706f2c1ba4074c91a3c78e845a1e5b6e170bea55f70577b4725337a75f2c
+
+[testbench_for_seven_seg_disp]
+Configures=seven_seg_disp_TB.TB_ARCHITECTURE
+E=1*40616
+I=0*35347
+M=2|0|ve4|1644513970558|../src/TB_seven_seg_disp/seven_seg_disp_TB.vhd|0*19379*0x9f6c4bb670667a28954ab8c7f5e53dd022b8d39c|0*19733*0x20116f55b147878295aeff36dce7fc50
+R=../src/TB_seven_seg_disp/seven_seg_disp_TB.vhd|77
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5f86f21d74b730ae0d7dbcbb92e9c64ebb167f8482d8a76650a5bb01d55f216535caa5a72a11063dc0579400c97608985
+
+[testbench_for_top]
+Configures=Top_TB.TB_ARCHITECTURE
+E=1*89677
+I=0*59068
+M=2|0|ve4|1644516665817|../src/TB_Top/Top_TB.vhd|0*22092*0x364740ce9760f9ff2a64cb7794d78d423b44e1c7|0*22336*0x20116f55b147878295aeff36dce7fc50
+R=../src/TB_Top/Top_TB.vhd|79
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5af072de0eb681d575b392f1023b48c73e55d81a3001b66fb1af92910bf7ead3e
+
+[top]
+A/top=A/Top 24|../src/Top.bde|10000|1*101841
+BinI32/top=3*29975
+I=0*50565
+I/top=I/Top 0*65067
+M=11|0|ve4|1644516193480|../compile/Top.vhd|0*50076*0xf4bf9be99daa128acdb67cd3a8f179a2b30f3a87|0*50490*0x23b75c12e3e89f2ef000564498faa8c2
+M/top=M/Top 21|0|ve4|1644517921737|../compile/Top.vhd|0*63704*0xdad6f01fce3f324c27e1a57a52c627b700131412|0*64985*0x20116f55b147878295aeff36dce7fc50
+R=../compile/Top.vhd|27
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|f1fdecad8dc292011c024b8d633bc5c77123ad29aa21bf03e8f58b032f81991b
+Version/top=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|f1fdecad8dc292011c024b8d633bc5c7881e5979d95c5646fd15285452ff66aa
+
+[top_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TB_Top/Top_TB.vhd|10|1*87476
+BinI32/tb_architecture=3*26721
+I=0*20458
+I/tb_architecture=I/TB_ARCHITECTURE 0*58741
+M=11|0|ve4|1644513424560|../src/TB_Top/Top_TB.vhd|0*20177*0x6deaf296d31dc9f92922e3546850f1ac25e7e668|0*20374*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|ve4|1644516665814|../src/TB_Top/Top_TB.vhd|0*20738*0x4c40b2639f4b1296a724487ddb4dcffed8791430|0*21663*0x20116f55b147878295aeff36dce7fc50
+R=../src/TB_Top/Top_TB.vhd|7
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|b0d2e10044441fefc12247a6f126cc0ccf6ad0867cc981323c831b45e0b23c95
+Version/tb_architecture=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea7fd44b6caf8fa65ad2d1e75b9deff08a
+
+[~U]
+fub1=Fub1 11|0*11915|
+generator=11|0*10321|
+generator_tb=11|0*22596|
+kaskada_liczaca=11|0*37372||0x7
+kaskada_liczaca_tb=kaskada_liczaca_TB 11|0*14220|
+prescaler=Prescaler 11|0*0||0x7
+preskaler2=11|0*29400||0x7
+seven_seg_disp=11|0*41357||0x7
+seven_seg_disp_tb=seven_seg_disp_TB 11|0*17158|
+testbench_for_generator=TESTBENCH_FOR_generator 2||
+testbench_for_kaskada_liczaca=TESTBENCH_FOR_kaskada_liczaca 2||
+testbench_for_seven_seg_disp=TESTBENCH_FOR_seven_seg_disp 2||
+testbench_for_top=TESTBENCH_FOR_Top 2||
+top=Top 11|0*49858|
+top_tb=Top_TB 11|0*20059|
+
+
